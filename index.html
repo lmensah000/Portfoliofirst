@@ -17,22 +17,22 @@
     </div>
     -->
     <!-- Home page  -->
-    <div class="home">
+    <div id="home">
       <header>
       <nav class="navbar sticky">
-        <img src="resources/images/logo.png" alt="name-logo" class="logo">
-        <ul class="navb ">
+
+        <ul class="navb">
           <li>
-            <a class="active" href="#" style="">Home</a>
+            <a class="btn active" href="#home" style="">Home</a>
           </li>
           <li>
-            <a href="#about-me.asp" style="">About me</a>
+            <a class="btn" href="#about-me" style="">About me</a>
           </li>
           <li>
-            <a href="#projects.asp" style="">Projects</a>
+            <a class="btn" href="#projects" style="">Projects</a>
           </li>
           <li>
-            <a href="#contact-me.asp" style="">Contact me</a>
+            <a class="btn" href="#contact-me" style="">Contact me</a>
           </li>
         </ul>
       </nav>
@@ -49,72 +49,95 @@
       </div>
     </div>
     <!-- About Me -->
-    <div class="about-me">
+    <div id="about-me">
       <fieldset id="textbox-about" action="/about-me" method="post">
         <legend id="textbox-me">About Me</legend>
         <div id="textbox">
-          <p id= "me row span-1-of-2">
-             I'm a Computer Science student, who is well versed in HTML,CSS, Javascript and Jquery.
-             My passion is to use my knowledge of Front-End development to help me transition to becoming a Full Stack
-             Developer. I am a people person, always ready to learn something new, with the energy to match. I would like to grow as a developer
+          <p>
+             I'm a Computer Science student, who is well versed in HTML,CSS,
+             Javascript and Jquery. My passion is to use my knowledge of Front-End
+             development to help me transition to becoming a Full Stack
+             Developer. I am a people person, always ready to learn something new,
+              with the energy to match. I would like to grow as a developer
              and someday contribute to great innovation in the tech world.
           </p>
-          <p id = "me row span-1-of-2">
-            <ul>
-              <li>C++</li>
-              <li>Java</li>
-            </ul>
-          </p>
+          </br>
+          <h4>Skills</h4>
+          <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
         </div>
       </fieldset>
     </div>
     <!-- Projects -->
-    <div class="projects">
-      <div class="row boxes">
+    <div id="projects">
+      <div class="row">
         <h2>Projects</h2>
       </div>
       <div class="row boxes">
-        <div class="col span-1-of-3">
-          <div class="calculator box">
-            <div>
+        <div class="box col span-1-of-3">
+          <div class="calculator">
               <h3>Calculator</h3>
-              <p>The calculator project was created using html and css</p>
-            </div>
+              <ul>
+                <li>The calculator project was created using HTML, CSS and Javascript.
+                The calculator is to resemble the iPhone calculator. With each number
+                clickable and functioned to output the result.
+                </li>
+              </ul>
             <div>
 
             </div>
           </div>
         </div>
-        <div class="col span-1-of-3">
-          <div class="dycd box">
-            <div>
+        <div class="box col span-1-of-3">
+          <div class="dycd">
               <h3>DYCD</h3>
-              <p>The DYCD project was also created using HTML and CSS</p>
-            </div>
+              <ul>
+                <li>
+                End to End development of DYCD web-page application to automate student admission’s process. </br>
+                </li>
+                <li>
+                Used Google authentication on student login account within the app,
+                along with Front End HTML 5, CSS3, JQuery and Back End NodeJs,
+                ExpressJs.
+                </li>
+                <li>
+                 Helped gain better awareness and increased enrollment to the youth, so the students know exactly their status of their application.
+                </li>
+                <li>
+                 Developed efficient client needs using assessment skills by empathizing the DYCD student’s requirements during the admissions phase.
+               </li>
+               </ul>
             <div>
 
             </div>
           </div>
         </div>
-        <div class="col span-1-of-3">
-          <div class="omnifood box">
-            <div>
+        <div class="box col span-1-of-3">
+          <div class="omnifood">
               <h3>OMNIfood</h3>
-              <p>The Omnifood project is a mock site redesigned by myself
-                using my own knowledge of html and css to sketch and create an
-                identical version of the psuedosite</p>
-            </div>
-            <div>
-
-            </div>
+              <ul>
+                <li>Gained a better understanding of what is needed to analyze, design,
+                and implement a client’s vision for their business.
+                </li>
+                <li>
+                Used HTML 5, CSS3 and JQuery for Front End and NodeJs, ExpressJs
+                for Back End designing. Created and implemented a custom CSS grid
+                system, with CSS media queries for mobile responsiveness.
+                </li>
+              </ul>
           </div>
         </div>
       </div>
     </div>
     <!-- Contact -->
-    <div class="contact-me">
+    <div id="contact-me">
       <fieldset id="textbox-about" action="/about-me" method="post">
-      <legend>Contact Me</legend>
+      <legend id="textbox-me">Contact Me</legend>
       <div id="textbox1">
       <div class="section-form">
         <div class="row">
@@ -174,6 +197,9 @@
             <i class="ion-social-linkedin"></i>  </a></li>
         </ul>
         </div>
+        </div>
+        <div class="row">
+          <p>Copyright© 2019 built by Lawrence Mensah</p>
         </div>
       </footer>
   </body>
