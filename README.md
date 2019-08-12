@@ -1,2 +1,0 @@
-# Portfoliofirst
-# lmensah.github.io
